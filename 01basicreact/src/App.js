@@ -1,6 +1,12 @@
+import Chai from "./chai";
 function App() {
   return (
-    <p>I am Vijay</p>
+    <>
+    <p>
+      This is Vijay
+    </p>
+    <Chai/>
+    </>
   );
 }
 
