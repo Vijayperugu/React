@@ -1,6 +1,5 @@
-import { useState } from 'react'
-
-
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 function App() {
 
 
@@ -11,4 +10,11 @@ function App() {
   )
 }
 
-export default App
+ReactDOM.createRoot(document.querySelector('#root')).render(
+  App()
+
+)
+
+
+
+
